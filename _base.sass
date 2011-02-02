@@ -1,0 +1,20 @@
+// CSS Reset
+@import compass/reset
+@include reset-html5
+
+// Compass Stuff
+@import compass/utilities
+
+// Links
+a
+  color: #006ac4
+  text-decoration: none
+  &:hover
+    color: #000
+    text-decoration: underline
+  &:focus, &:active
+    outline: none
+
+// Typography
+.font-helvetica
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif
